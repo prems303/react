@@ -4,6 +4,7 @@
   "description": "A 'first React app' tutorial/challenge",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint index.js",
     "start": "webpack-dev-server --hot --inline",
     "test": "tape -r babel-register 'tests/**/*.test.js' | tap-spec"
   },

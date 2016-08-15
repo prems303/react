@@ -95,3 +95,64 @@ h2 {
   display: block;
   margin: 0.5rem;
 }
+
+
+
+
+
+
+
+.cat-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat-wrapper .cat {
+  color: white;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 25rem;
+  border-radius: 0.4rem;
+  background-color: tomato;
+}
+
+.cat-pic {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 0.4rem;
+  background-color: tomato;
+  width: 6rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.cat-wrapper .cat-pic .cat-img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.cat .cat-name-plate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cat .cat-name {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  border-bottom: 1px black solid;
+}
+
+.cat .cat-breed {
+  font-style: italic;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.cat .cat-superpower {
+  font-size: 1rem;
+  display: block;
+  margin: 0.5rem;
+}
